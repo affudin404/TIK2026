@@ -4,7 +4,7 @@ body{
   color: #202021 ;
 }
 
-.c-Profil{
+.c-profil{
  width: 300px ;
  margin: 50px auto ;
  padding: 20px ;
@@ -13,10 +13,10 @@ body{
  box-shadow: 0 4px 8px rgba(0,0,0,0,1) ;
 }
 
-.c-Profil img{
+.c-profil img{
   width: 150px;
   border-radius: 50%;
 }
-.c-Profil{
+.c-profil{
   text-align: center;
 }
