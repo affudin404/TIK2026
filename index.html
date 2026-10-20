@@ -1,17 +1,37 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title></title>
-    <link rel="stylesheet" href="style.css" >
-  </head>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Mengisi judul halaman web -->
+    <title>Kartu Profil Foto China</title>
+    <!-- Menghubungkan file HTML ke file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <div class="c-profil">
-  <img src="wandB-chinaBuilding.jpg" alt="foto bangunan china">
-  <h1>Foto China</h1>
-  <p>SMK HEBAT! dengan bertenagaan praktek per juruan</p>
-  <a href="https://www.wikipedia.org/">Kunjungi WikiPedia</a>
-    <button id="sapaan">Click me</button>
-  </div>
-<script src="script.js"></script>
+
+    <!-- Container utama kartu profil -->
+    <div class="c-profil">
+        <!-- 
+          PERBAIKAN: 
+          1. Atribut 'scr' diubah menjadi 'src' (Source).
+          2. Link Unsplash diganti dengan URL langsung gambar agar foto dapat tampil.
+        -->
+        <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=500" alt="foto bangunan china">
+        
+        <h1>Foto China</h1>
+        <p>SMK HEBAT! dengan bertenagaan praktek per juruan</p>
+        
+        <!-- Link ke Wikipedia -->
+        <a href="https://www.wikipedia.org/" target="_blank">Kunjungi WikiPedia</a>
+        
+        <br><br> <!-- Jarak antar elemen -->
+        
+        <!-- Tombol untuk menyapa -->
+        <button id="sapaan">Click me</button>
+    </div>
+
+    <!-- Menghubungkan file HTML ke file JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
