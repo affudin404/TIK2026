@@ -1,7 +1,7 @@
 body{
   background-color: #002e5c;
-  font-family: Helvetica, sans-serif;
-  color: #ffffff;
+  font-family: arial, Sans-serif;
+  color: #eaeaea;
 }
 
 .c-Profil{
@@ -14,13 +14,9 @@ body{
 }
 
 .c-Profil img{
-  width: 125px;
+  width: 150px;
   border-radius: 50%;
 }
 .c-Profil{
   text-align: center;
-}
-
-.c-Profil h1{
-  color: black ;
 }
